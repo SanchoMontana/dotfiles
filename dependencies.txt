@@ -1,0 +1,9 @@
+bspwm
+sxhkd
+polybar
+picom
+dmenu
+dunst
+nitrogen
+alacritty
+thunar
