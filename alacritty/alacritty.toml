@@ -1,0 +1,23 @@
+[general]
+
+import = [
+    "~/.config/alacritty/themes/gruvbox_dark.toml"
+]
+
+[font]
+size = 11.0
+
+[font.normal]
+family = "SauceCodePro NerdFont"
+style = "Regular"
+
+[font.bold]
+style = "Bold"
+
+[font.italic]
+style = "Italic"
+
+[mouse]
+hide_when_typing = true
+
+

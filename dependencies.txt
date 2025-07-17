@@ -5,5 +5,12 @@ picom
 dmenu
 dunst
 nitrogen
-alacritty
 thunar
+cmake
+g++
+pkg-config
+libfontconfig1-dev
+libxcb-xfixes0-dev
+libxkbcommon-dev
+python3
+git
