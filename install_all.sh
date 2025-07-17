@@ -33,3 +33,7 @@ wm_utils/configure_wm.sh
 
 # =============== INSTALL WM ===============
 git/config.sh
+
+
+# =============== INSTALL WM ===============
+nvim/install_and_setup.sh
