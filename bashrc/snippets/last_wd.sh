@@ -1,4 +1,3 @@
-# BashPatchID="alacritty_open_last_wd"
 echo $(pwd) >$HOME/.config/sxhkd/last_wd
 cd() {
   builtin cd "$@"
@@ -12,4 +11,3 @@ pdopd() {
   builtin popd "$@"
   echo $(pwd) >$HOME/.config/sxhkd/last_wd
 }
-

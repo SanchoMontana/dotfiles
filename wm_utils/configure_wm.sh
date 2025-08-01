@@ -3,19 +3,6 @@
 SCRIPT_DIR="$(dirname $0)"
 CONFIG_DIR="$HOME/.config"
 
-# Patches
-ALACRITTY_LAST_WD=("alacritty_open_last_wd" "./last_wd.sh")
-
-apply_patch() {
-  local patch_id_file_arr="$1"
-  if grep -q ${patch_id_file_arr[0]} ~/.bashrc; then
-    echo "patch ${patch_id_file_arr[0]} already installed"
-  else
-    echo "$(cat ${patch_id_file_arr[1]})" >>~/.bashrc
-  fi
-}
-
-apply_patch $ALACRITTY_LAST_WD
 pushd ${CONFIG_DIR} >/dev/null
 mkdir -p bspwm sxhkd polybar picom dunst
 popd >/dev/null

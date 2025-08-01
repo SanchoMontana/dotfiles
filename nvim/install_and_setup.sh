@@ -12,3 +12,7 @@ else
 fi
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
+
+cp ./plugins/* ~/.config/nvim/lua/plugins/
+cp ./config/* ~/.config/nvim/lua/config/
+cp ./init.lua ~/.config/nvim/init.lua
